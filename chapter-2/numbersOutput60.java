@@ -13,7 +13,12 @@ for (int i = 1; i <= 6; i++) {
 }
 
 System.out.println();
-
-for (int i = 1; i <= 6; i++) {
-    System.out.print("1234567890");
+//This way it just uses more for loops, which fits the spirit of the question
+for (int j=0;j<6;j++){ 
+    
+    for (int i=0;i<9;i++){
+        System.out.print(i+1);
+    }
+    System.out.print("0");
+    
 }
